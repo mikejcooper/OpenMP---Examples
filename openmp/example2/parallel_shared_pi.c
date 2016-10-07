@@ -3,7 +3,7 @@
 #include<math.h>
 #include<omp.h> 
 
-#define NUM_THREADS 4
+#define NUM_THREADS 8
 
 int main (void) 
 {
