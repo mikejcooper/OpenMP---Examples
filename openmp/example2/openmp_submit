@@ -14,7 +14,7 @@
 #PBS -m a
 
 #! Full path to application + application name
-application="./parallel_array_pi.c.exe"
+application="./parallel_private_pi.c.exe"
 
 #! Run options for the application
 options=""
