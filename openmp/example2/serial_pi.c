@@ -5,7 +5,7 @@
 int main (void) 
 {
   /* locals */
-  static long num_steps = 100000000; /* number of steps over which to estimate pi */
+  static long num_steps = 10; /* number of steps over which to estimate pi */
   double step;                       /* the step size */
   int ii;                            /* genereric counter */
   double x;                          /* intermediate value */
