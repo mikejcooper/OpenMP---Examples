@@ -18,7 +18,7 @@ int main(void)
 {
   int ii;
   int tid;
-  const int arraySize = 30;
+  const int arraySize = 100;
   struct mystruct {
     char port;
     char starboard;
