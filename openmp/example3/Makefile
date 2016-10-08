@@ -14,7 +14,7 @@ COMP=GNU
 ifeq ($(COMP), GNU)
   CC=gcc
   CFLAGS=-g -O3 -fopenmp -lm
- CFLAGS+=-fopt-info-vec-missed
+#  CFLAGS+=-fopt-info-vec-missed
 endif
 
 # settings for PGI compilers
