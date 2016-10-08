@@ -14,7 +14,7 @@ int main (int argc, char *argv[]) {
   {
 #pragma omp for 
     for (i=0; i<N; i++) {
-#pragma omp simd safelen(18)
+// #pragma omp simd safelen(18)
       for (j=18; j<N-18; j++) {
 	x[i][j] = x[i][j-18] + sin(y[i][j]);
 	y[i][j] = y[i][j+18] + cos(x[i][j]);
