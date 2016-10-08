@@ -29,7 +29,7 @@ int main (int argc, char *argv[]) {
     ** the default round-robin vs. dynamic scheduling.
     */
 
-#pragma omp for schedule(dynamic) 
+#pragma omp for schedule(dynamic,5) 
     for (i=0; i<N; i++)
       {
 	if (i <= 10) {
