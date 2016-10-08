@@ -12,13 +12,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUM_THREADS 2
+#define NUM_THREADS 1
 
 int main(void)
 {
   int ii;
   int tid;
-  const int arraySize = 10000;
+  const int arraySize = 20;
   struct mystruct {
     char port;
     char starboard;
