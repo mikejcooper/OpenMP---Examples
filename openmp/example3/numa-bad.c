@@ -24,7 +24,7 @@ int main (int argc, char *argv[]) {
   ** Access in parallel.
   */
   for(j=0; j<REPEAT; j++) {
-#pragma omp parallel for schedule(parallel,10) 
+#pragma omp parallel proc_bind(spread) num_threads(8)
     for (i=0; i<N; i++) {
       a[i] = b[i];
     }
